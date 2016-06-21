@@ -1,6 +1,6 @@
 @font-face {
   font-family: bebas;
-  src: url("./fonts/BebasNeue Book.woff") format("woff")
+  src: url("../fonts/BebasNeue Book.woff") format("woff")
 }
 
 body {
@@ -30,7 +30,7 @@ body {
   }
 
   &:after {
-    background: rgba(0, 0, 0, .7) url('./img/video_overlay_texture.png');
+    background: rgba(0, 0, 0, .7) url('../img/video_overlay_texture.png');
     content: '';
     height: 100%;
     left: 0;
